@@ -6,10 +6,5 @@
 // three global arrays (static) with three corresponding global functions (static)
 // to access the data in those arrays, and a driver file.
 
-
 #include <iostream>
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+using namespace std;
