@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/small_porject_2.dir/main.cpp.o CMakeFiles/small_porject_2.dir/Person.cpp.o CMakeFiles/small_porject_2.dir/Friends.cpp.o -o small_porject_2 
