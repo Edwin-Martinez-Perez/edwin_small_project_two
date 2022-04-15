@@ -69,6 +69,22 @@ build CMakeFiles/small_porject_2.dir/main.cpp.obj: CXX_COMPILER__small_porject_2
   TARGET_COMPILE_PDB = CMakeFiles\small_porject_2.dir\
   TARGET_PDB = small_porject_2.pdb
 
+build CMakeFiles/small_porject_2.dir/Person.cpp.obj: CXX_COMPILER__small_porject_2_Debug C$:/Users/Edwin/CLionProjects/small_porject_2/Person.cpp || cmake_object_order_depends_target_small_porject_2
+  DEP_FILE = CMakeFiles\small_porject_2.dir\Person.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\small_porject_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\small_porject_2.dir
+  TARGET_COMPILE_PDB = CMakeFiles\small_porject_2.dir\
+  TARGET_PDB = small_porject_2.pdb
+
+build CMakeFiles/small_porject_2.dir/Friends.cpp.obj: CXX_COMPILER__small_porject_2_Debug C$:/Users/Edwin/CLionProjects/small_porject_2/Friends.cpp || cmake_object_order_depends_target_small_porject_2
+  DEP_FILE = CMakeFiles\small_porject_2.dir\Friends.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\small_porject_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\small_porject_2.dir
+  TARGET_COMPILE_PDB = CMakeFiles\small_porject_2.dir\
+  TARGET_PDB = small_porject_2.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target small_porject_2
@@ -77,7 +93,7 @@ build CMakeFiles/small_porject_2.dir/main.cpp.obj: CXX_COMPILER__small_porject_2
 #############################################
 # Link the executable small_porject_2.exe
 
-build small_porject_2.exe: CXX_EXECUTABLE_LINKER__small_porject_2_Debug CMakeFiles/small_porject_2.dir/main.cpp.obj
+build small_porject_2.exe: CXX_EXECUTABLE_LINKER__small_porject_2_Debug CMakeFiles/small_porject_2.dir/main.cpp.obj CMakeFiles/small_porject_2.dir/Person.cpp.obj CMakeFiles/small_porject_2.dir/Friends.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\small_porject_2.dir

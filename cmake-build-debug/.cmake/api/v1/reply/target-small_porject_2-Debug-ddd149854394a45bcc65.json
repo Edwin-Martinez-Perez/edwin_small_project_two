@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "small_porject_2"
+			"path" : "small_porject_2.exe"
+		},
+		{
+			"path" : "small_porject_2.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -70,12 +73,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "small_porject_2",
-	"nameOnDisk" : "small_porject_2",
+	"nameOnDisk" : "small_porject_2.exe",
 	"paths" : 
 	{
 		"build" : ".",
