@@ -1,6 +1,12 @@
 //
-// Created by eamartinezperez on 4/7/22.
 //
+// This file is Friend.h
+
+#include "Person.h"
+#include <iostream>
+#include <array>
+
+using namespace std;
 
 #ifndef SMALL_PORJECT_2_FRIENDS_H
 #define SMALL_PORJECT_2_FRIENDS_H

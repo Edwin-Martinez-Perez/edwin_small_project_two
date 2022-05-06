@@ -20,10 +20,67 @@ string Person::selectMusic() {
 
 string Person::selectMovie() {
     int movie = rand() % 4;
-    return musicGenre[movie];
+    return movieGenre[movie];
 }
 
 string Person::selectGame() {
     int game = rand() % 4;
-    return musicGenre[game];
+    return gameGenre[game];
 }
+
+    //constructor knowing only first and last name
+    Person::Person(const string theFirst, const string theLast)
+    : firstName{theFirst}, lastName{theLast}
+    {}
+
+    //constructor knowing first and last name and fav(movie, music, game)
+    Person::Person(const string first, const string last, string movie, string music, string game)
+    : firstName{first}, lastName{last}, favMovie{movie}, favMusic{music}, favGame{game}
+    {}
+    //destructor
+    Person::~Person() {}
+
+    string Person::getFirstName() {
+        return this -> firstName;
+    }
+
+    string Person::getLastName() {
+        return this-> lastName;
+    }
+
+    string Person::getFavMovie() {
+        return this -> favMovie;
+    }
+
+    string Person::getFavMusic() {
+        return this -> favMusic;
+    }
+
+    string Person::getFavGame() {
+        return this -> favGame;
+    }
+
+    //set favorites
+    void Person::setFavGame(string newGame) {
+        this -> favGame = newGame;
+    }
+
+    void Person::setFavMusic(string newMusic) {
+        this -> favMusic = newMusic;
+    }
+    void Person::setFavMovie(string newMovie) {
+        this -> favMovie = newMovie;
+    }
+
+    void Person:: toString() {
+        cout << "\n" << getFirstName() << ", " << getLastName()
+        << "\n\tFavorite movie genre is. " << getFavMovie()
+        << "\n\tFavorite music genre is, " << getFavMusic()
+        << "\n\tFavorite game genre is, " << getFavGame() << endl;
+    }
+
+
+
+
+
+

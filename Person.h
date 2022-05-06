@@ -32,6 +32,7 @@ public:
     static string selectMovie();
     static string selectGame();
 
+    void toString();
 private:
     string firstName;
     string lastName;
